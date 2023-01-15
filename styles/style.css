@@ -1,0 +1,248 @@
+body{
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+/*Header Styles starts*/
+.container{
+    background-color:#FFF4E7;
+    padding-bottom: 40px;
+}
+nav{
+    gap: 650px;
+   
+  
+}
+nav h3{
+    margin-top: 40px;
+    margin-left: 200px;
+    font-size:35px;
+}
+nav, .header-link{
+    display: flex;
+    
+}
+a{
+    text-decoration: none;
+}
+.header-link {
+   text-decoration: none;
+   list-style: none;
+   margin-right: 260px;
+   margin-top: 60px;
+
+}
+li{
+    padding-right: 40px;
+}
+/* Header Styles Ends */
+/* Banner Styles Starts */
+.banners{
+    text-align: center;
+}
+.banner-title{
+    margin-top: 0px;
+    font-size: 50px;
+}
+.banner-info{
+    font-size:16px;
+}
+.banner-button{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    border:none;
+    border-radius: 8px;
+    font-size:20px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.banner-img{
+    margin-top: 50px;
+}
+/* Banner-Styles Ends */
+/* second section's first part style starts*/
+.container-two{
+    padding-bottom: 50px;
+}
+.first-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 342px;
+    height: 342px;
+    margin-left: 200px;
+    margin-top:80px;
+    
+}
+.first-part-imgs{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    
+  
+}
+.second-sec-first-part{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap: 70px;
+   
+   
+}
+.second-part{
+   margin-left: 350px;
+   margin-right: 200px;
+   margin-top:300px; 
+   
+}
+.second-part h3{
+    font-size:45px;
+    margin-bottom: 25px;
+}
+.quick-font-style{
+    color:#727272;
+    font-weight:100;
+}
+.feature-font-style{
+    color: #FF900E;
+   
+}
+.second-part button{
+    width: 180px;
+    height: 64px;
+    background-color: #FF900E;
+    border:none;
+    border-radius: 8px;
+    font-size:20px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+/* Second-section-first-part styles Ends */
+/* Second-section-second-part styles starts */
+.container-three{
+    margin-top: 350px;
+}
+.second-sec-second-part{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.second-sec-second-part > div{
+    flex:1;
+}
+.blogs{
+    margin-left: 200px;
+}
+.header-blog{
+    margin-bottom: 50px;
+}
+.header-blog h2{
+    font-size:45px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-top: 0px;
+}
+.header-blog p,.main-blog p{
+    color: #727272;
+    font-size:16px;
+}
+.main-blog{
+    width: 586px;
+    height: 130px;
+    box-shadow:  0px 4px 30px rgba(0, 0, 0, 0.06);
+    padding: 30px 42px 30px 30px;
+    margin-top: 20px;
+}
+.second-part-picture img{
+    width: 700px;
+    height:1100;
+}
+.second-part-picture{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+   
+}
+.special-button{
+    width: 342px;
+    height: 200px;
+    background-color: #FF900E;
+    border:none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin-left:-100px ;
+    margin-top: -120px;
+
+}
+.special-button span{
+    font-size:65px;
+    width: 700;
+}
+/*Second-Section-Second-Part-Styles ends*/
+/* Third-Section Styles starts */
+.container-four{
+    margin-top:150px;
+    margin-left: 200px;
+}
+.third-sec-banner{
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+.third-sec-banner h2{
+    font-size:45px;
+}
+.third-sec-banner p{
+    color: #727272;
+    font-size:16px;
+}
+.third-sec-icon{
+    display: flex;
+    gap: 100px;
+    margin: 0px 290px 0px 100px;
+}
+.third-sec-icon > div{
+    flex: 1;
+}
+.icons{
+    width: 250px;
+    height: 180px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 50px;
+}
+/*Third-Section-Styles Ends*/
+/* Four-Section Styles Starts */
+.container-five{
+    margin-top:200px;
+    margin-left: 85px;
+}
+.four-sec-banner{
+    text-align: center;
+}
+.four-sec-banner h2{
+    font-size:45px;
+}
+.four-sec-banner p{
+    color: #727272;
+    font-size:16px;
+}
+.sponsors img{
+    margin-left: 155px;
+    margin-top: 50px;
+    filter:grayscale(100%);
+}
+/* Four-Section Styles Ends */
+/* Footer Styles Starts */
+.container-last{
+    margin:130px 240px 216px 240px;
+}
+.container-last h3{
+    width: 1440px;
+    height:60px;
+    font-size: 20px;
+    color: #727272;
+    text-align: center;
+    background-color:#FFF4E7;
+    border-radius: 8px;
+    padding-top: 40px;
+}
+/* Footer Styles Ends */
+    
