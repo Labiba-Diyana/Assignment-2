@@ -9,8 +9,6 @@ body{
 }
 nav{
     gap: 650px;
-   
-  
 }
 nav h3{
     margin-top: 40px;
@@ -19,7 +17,6 @@ nav h3{
 }
 nav, .header-link{
     display: flex;
-    
 }
 a{
     text-decoration: none;
@@ -29,12 +26,12 @@ a{
    list-style: none;
    margin-right: 260px;
    margin-top: 60px;
-
 }
 li{
     padding-right: 40px;
 }
 /* Header Styles Ends */
+
 /* Banner Styles Starts */
 .banners{
     text-align: center;
@@ -60,6 +57,7 @@ li{
     margin-top: 50px;
 }
 /* Banner-Styles Ends */
+
 /* second section's first part style starts*/
 .container-two{
     padding-bottom: 50px;
@@ -71,27 +69,21 @@ li{
     height: 342px;
     margin-left: 200px;
     margin-top:80px;
-    
 }
 .first-part-imgs{
     margin-right: 15px;
     margin-bottom: 15px;
-    
-  
 }
 .second-sec-first-part{
     display:flex;
     justify-content:center;
     align-items: center;
     gap: 70px;
-   
-   
 }
 .second-part{
    margin-left: 350px;
    margin-right: 200px;
    margin-top:300px; 
-   
 }
 .second-part h3{
     font-size:45px;
@@ -103,7 +95,6 @@ li{
 }
 .feature-font-style{
     color: #FF900E;
-   
 }
 .second-part button{
     width: 180px;
@@ -116,6 +107,7 @@ li{
     margin-top: 20px;
 }
 /* Second-section-first-part styles Ends */
+
 /* Second-section-second-part styles starts */
 .container-three{
     margin-top: 350px;
@@ -157,8 +149,7 @@ li{
 .second-part-picture{
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
-   
+    align-items:flex-start; 
 }
 .special-button{
     width: 342px;
@@ -169,13 +160,13 @@ li{
     color: #FFFFFF;
     margin-left:-100px ;
     margin-top: -120px;
-
 }
 .special-button span{
     font-size:65px;
     width: 700;
 }
 /*Second-Section-Second-Part-Styles ends*/
+
 /* Extra Section Styles starts */
 .container-extra{
     margin-top:200px;
@@ -188,7 +179,6 @@ li{
 .container-extra h2 span{
     color:#FF900E;
 }
-
 .architects{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -221,6 +211,7 @@ li{
     margin-top: 20px;
 }
 /* Extra Section Styles Start */
+
 /* Third-Section Styles starts */
 .container-four{
     margin-top:150px;
@@ -259,6 +250,7 @@ li{
    transform: rotate(360deg);
 }
 /*Third-Section-Styles Ends*/
+
 /* Four-Section Styles Starts */
 .container-five{
     margin-top:200px;
@@ -280,6 +272,7 @@ li{
     filter:grayscale(100%);
 }
 /* Four-Section Styles Ends */
+
 /* Footer Styles Starts */
 .container-last{
     margin:130px 240px 216px 240px;
@@ -311,6 +304,7 @@ li{
     }
 }
 /* Header End */
+
 /* First-main-section starts */
 @media screen and (max-width:577px) {
     .banner-img img {
@@ -319,13 +313,13 @@ li{
     }
 }
 /* First-main-section ends */
+
 /* Second-main-section-first-part starts  */
 @media screen and (max-width:577px){
     .first-part{
         grid-template-columns: repeat(1, 1fr);
         margin-left: 10px;
         }
-    
     .second-sec-first-part{
         flex-direction: column-reverse;
     }
@@ -334,13 +328,12 @@ li{
         margin-top: 30px;
     }
 }
-
 /* Second-main-section-first-part ends  */
+
 /*  Second-main-section-second-part starts */
 @media screen and (max-width:577px) {
     .container-three{
-        margin-top: 1100px;
-        
+        margin-top: 1100px; 
     }
     .second-sec-second-part{
         flex-direction: column-reverse ;
@@ -369,6 +362,7 @@ li{
     }
 }
 /*  Second-main-section-second-part ends */
+
 /*  Extra-Section-starts */
 @media screen and (max-width:577px) {
     .container-extra{
@@ -382,18 +376,18 @@ li{
     }
 }
 /* Extra-Section-ends  */
+
 /* Third-section starts */
 @media screen and (max-width:577px) {
     .container-four{
         margin-left: 0px;
-        
     }
-
     .third-sec-icon{
         flex-direction: column;
     } 
 }
 /* Third-section ends */
+
 /* Fourth-Section Starts  */
 @media screen and (max-width:577px){
     .container-five{
@@ -403,8 +397,8 @@ li{
         margin-left: 50px;
     }
 }
-
 /*Fourth-Section Ends  */
+
 /* Footer Styles Starts */
 @media screen and (max-width:577px){
     .container-last h3{
